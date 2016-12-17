@@ -83,6 +83,10 @@ margin-left: 49px;
   border: 1px solid #EAEAEA;
 }
 
+textarea {
+  resize: none;
+}
+
 .full-name,
 .tagline,
 .profile-img {
