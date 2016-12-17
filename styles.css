@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 38.4px;
+  color: #272727;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  color: #000000;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  color: #272727;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 19.8px;
+  color: #232323;
+}
+
+h5 {
+  font-family: 'Lora', serif;
+  font-size: 16.8px;
+  color: #FFFFFF;
+}
+
+h6 {
+  font-family: 'Lora', serif;
+  font-size: 16.8px;
+  color: #232323;
+}

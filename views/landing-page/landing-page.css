@@ -1,0 +1,20 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+.main-nav {
+  width: 90%;
+
+}
+
+.right-nav,
+.left-nav {
+  height: 100%;
+
+}
