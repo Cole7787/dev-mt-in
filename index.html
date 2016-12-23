@@ -6,14 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="/views">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./views/friends-profile/friends-profile.css">
+	<link rel="stylesheet" href="./views/friends-view/friends-view.css">
+	<link rel="stylesheet" href="./views/initial-view/initial-view.css">
+	<link rel="stylesheet" href="./views/landing-page/landing-page.css">
+	<link rel="stylesheet" href="./views/search-friends/search-friends.css">
+	<link rel="stylesheet" href="./views/update-profile/update-profile.css">
+
 	<title>DevMtin</title>
 </head>
 
 <body>
 
+	<nav class="nav">
+		<img class="left-icon">
+
+		<p class="nav-text" ng-click="initial-view">DevMountain</p>
+		<p class="ham">
+			<img src="../../images/Icons/Ham.svg" alt="">
+		</p>
+
+	</nav>
+
+		<div class=line></div>
+<ui-view class="theView"></ui-view>
+
+
+		<div class="bottom-line"></div>
+		<footer class="bottom">
+
+			<div class="bottom-links">
+				<a class="view-friends" ui-sref="friends-view" ng-click="friends-view">View Friends</a>
+				<a class="find-friends" ui-sref="search-friends" ng-click="search-friends">Find Friends</a>
+				<a class="update-profile" ui-sref="update-profile" ng-click="update-profile">Update Profile</a>
+			</div>
+		</footer>
 
 </body>
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js" charset="utf-8"></script>
+	<script src="./app.js"></script>
+	<script src="./views/friends-profile/friends-profile-ctrl.js"></script>
+	<script src="./views/friends-view/friends-view-ctrl.js"></script>
+	<script src="./views/initial-view/initial-view-ctrl.js"></script>
+	<script src="./views/landing-page/landing-page-ctrl.js"></script>
+	<script src="./views/search-friends/search-friends-ctrl.js"></script>
+	<script src="./views/update-profile/update-profile-ctrl.js"></script>
+	<script src="./service.js"></script>
+
 </html>

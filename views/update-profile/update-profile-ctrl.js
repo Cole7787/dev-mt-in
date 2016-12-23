@@ -1,3 +1,3 @@
-angular.module('pageViews').controller('updateProfileCtrl', function($scope, mainService){
+angular.module('pageViews').controller('update-profile-ctrl', function($scope, mainService){
 
 });

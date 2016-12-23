@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-  width: 38%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.theView {
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
 }
 
 input:focus,
@@ -18,6 +32,7 @@ button:hover {
 a:link {
   text-decoration: none;
 }
+
 
 textarea {
   resize: none;
@@ -57,4 +72,105 @@ h6 {
   font-family: 'Lora', serif;
   font-size: 16.8px;
   color: #232323;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nav .nav-text {
+  width: 33.3%;
+  font-family: 'Lora', serif;
+  font-size: 16.8px;
+  color: #272727;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .left-icon {
+width: 33.4%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-left: 49px;
+}
+
+.nav .ham {
+  width: 33.4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 49px;
+}
+
+/*.small-triangle {
+  -webkit-clip-path: polygon(48% 100%, 30% 68%, 66% 68%);
+  width: 150px;
+  height: 150px;
+}*/
+
+.line {
+  width: 95%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #EAEAEA;
+  margin-left: 2.5%;
+}
+
+
+.bottom {
+  width: 100%;
+  height: 13vh;
+  bottom: 11px;
+}
+
+.bottom-line{
+  width: 90%;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #D7D7D7;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-links {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.view-friends,
+.find-friends,
+.update-profile {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.2px;
+  color: #A9A9A9;
+  margin-top: 30px;
+}
+
+.view-friends {
+
+}
+
+.find-friends {
+
+}
+
+.update-profile {
+
 }

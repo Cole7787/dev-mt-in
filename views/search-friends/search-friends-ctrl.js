@@ -1,3 +1,3 @@
-angular.module('pageViews').controller('searchFriendsCtrl', function($scope, mainService){
+angular.module('pageViews').controller('search-friends-ctrl', function($scope, mainService){
 
 });

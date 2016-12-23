@@ -1,14 +1,21 @@
-<!DOCTYPE html>
-<html ng-app="pageViews">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="landing-page.css">
+    <img class="icon" ng-src="{{data.imgUrl}}" alt="">
+    <section class="landing-content">
+      <div class="left">
+        <div class="name-text">
+          <p><h1>{{data.name}}</h1></p>
+        </div>
+        <div class="tagline-text">
+          <p>{{data.tagline}}</p>
+        </div>
+        <div class="bio-text">
+          <p>{{data.bio}}</p>
+        </div>
 
-    <title>Landing Page</title>
-  </head>
-  <body ng-controller="landingPageCtrl">
-
-  </body>
-  <script src="landing-page-ctrl.js"></script>
-
-</html>
+      </div>
+      <div class="right">
+        <div class="images">
+          <img class="back-image"></img>
+          <div class="front-image" ng-style="{'background-image': 'url({{data.imgUrl}})','background-size':'cover','background-position':'center', 'background-repeat':'no-repeat'}"></div>
+        </div>
+        </div>
+      </section>
